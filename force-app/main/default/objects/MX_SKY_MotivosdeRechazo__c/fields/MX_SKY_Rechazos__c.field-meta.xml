@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MX_SKY_Rechazos__c</fullName>
+    <description>Es la relación entre los catalogos de los rechazos y los motivos de rechazos</description>
+    <externalId>false</externalId>
+    <label>Rechazos</label>
+    <referenceTo>MX_SKY_Rechazos__c</referenceTo>
+    <relationshipLabel>Motivos de Rechazo</relationshipLabel>
+    <relationshipName>Rechazos</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
